@@ -12,35 +12,33 @@ A simple Python utility that organizes mixed file types into extension-based fol
 
 ## Project Structure
 
+```plaintext
 FileSorter/
-│── .gitignore                 # Git ignore rules
-│── TODO.md                    # Future improvements
-│── file_sorter.py             # Main entry point
-│── requirements.txt           # Dependencies
+│── .gitignore
+│── TODO.md
+│── file_sorter.py
+│── requirements.txt
 │
 ├── config/
-│   └── __init__.py            # Config package
+│   └── __init__.py
 │
 ├── core/
-│   ├── __init__.py            # Core initializer
-│   │
+│   ├── __init__.py
 │   ├── compression/
 │   │   └── __init__.py
-│   │
 │   ├── converters/
 │   │   └── __init__.py
-│   │
 │   └── file_ops/
-│       └── __init__.py        # Sorting logic
+│       └── __init__.py
 │
 ├── ui/
-│   └── __init__.py            # UI helpers
+│   └── __init__.py
 │
 ├── utils/
-│   └── __init__.py            # Utility functions
+│   └── __init__.py
 │
 └── tests/
-    └── __init__.py            # Test package
+    └── __init__.py
 
 ## Requirements
 
